@@ -1,0 +1,402 @@
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* * {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+} */
+
+
+.header {
+  position:absolute;
+  width:100%;
+  height:8vh;
+  top:0;
+  left:0;
+  background:#000;
+  color: #E0E3E2;
+  padding: 0 32px;
+}
+
+.nav {
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.logo img {
+ width: 5%;
+  object-fit: cover;
+  margin-left:30px;
+}
+
+
+.toggle {
+display:none;
+color:#E0E3E2;
+}
+
+.menu {
+  align-items: center;
+  font-family: 'Raleway';
+  font-weight: normal;
+  display:flex;
+  list-style: none;
+  justify-content: center;
+  background-color:#4c5155;
+  box-shadow: inset 0px 0px 49px -13px #000000;
+  padding-top: 26px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  gap:100px;
+  margin-top: -80px;
+}
+
+.menu li a {
+  font-size: 24px;
+  color: #E0E3E2;
+   text-decoration: none;
+}
+
+
+
+
+
+.hello h1 {
+  font-family: 'Raleway';
+  font-weight:bold;
+  margin-left: 240px;
+  margin-bottom:155px;
+  font-size: 45px;
+  color:#E0E3E2;
+}
+
+
+.hello_background {
+  position: relative;
+  background-image: url("file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/pen.webp");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:95px;
+  margin-top: -16px;
+
+}
+
+.presentation {
+  width: 100%;
+  height:396px;
+  padding: 1px;
+  background-color: #d6cfcb;
+  box-shadow:inset 1px 0px 14px 0px #4d4847;
+}
+
+.presentation_face img {
+  border-radius: 50%;
+  size: 40px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.presentation_text h2 {
+ font-family: 'Raleway';
+ font-weight: normal;
+ margin-top: -230px;
+ margin-right: 245px;
+ float: right;
+
+}
+
+
+.competences_img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.competences_list {
+  margin-top: -1000px;
+}
+
+.competences {
+  text-align: center; 
+  font-family: 'Raleway';
+  font-weight:bold;
+}
+
+.competences_category {
+ font-family: 'Raleway';
+ font-weight:bold;
+ text-align: center;
+
+}
+
+.competences_front {
+ font-family: 'Raleway';
+ font-weight: normal;
+ padding-top: 20px;
+ display:flex;
+ text-align: center;
+ gap:120px;
+ margin-left:320px;
+}
+
+.competences_cms {
+  font-family: 'Raleway';
+  font-weight: normal;
+  padding-top: 20px;
+  display:flex;
+  text-align: center;
+  gap:100px;
+  margin-left:310px;
+
+}
+
+.program  {
+  border-radius: 20px;
+  border: 2px solid;
+  border-image: linear-gradient(45deg,#D5CC8EFF,#000) 10;
+  width: 125px;
+}
+
+.program h4 {
+ font-family: 'Raleway';
+ font-weight:bold;
+ text-decoration: none;
+ text-align: center;
+}
+
+.cms {
+  border: 2px solid;
+  border-image: linear-gradient(45deg,#D5CC8EFF,#000) 10;
+  border-radius: 20px;
+  width: 125px;
+  margin-left: 170px;
+
+}
+
+.cms h4 {
+ font-family: 'Raleway';
+ font-weight:bold;
+ text-decoration: none;
+ text-align: center;
+
+}
+
+.portfolio h2 {
+  font-family: 'Raleway';
+  font-weight: bold;
+  padding-top: 230px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.project_list img {
+  width: 220px;
+  height: 120px;
+  margin-left: 355px;
+  border: 2px solid;
+  border-image: linear-gradient(45deg,#D5CC8EFF,#000) 10;
+}
+
+/* FORMULAIRE */
+
+.contact_font {
+/*   background-color: #d6cfcb; */
+background-image: url("file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/fond.webp");
+background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  object-fit: cover;
+      padding-top: 1px;
+    padding-bottom: 40px;
+}
+
+.contact h2 {
+  font-family: 'Raleway';
+  font-weight: bold;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+.contact_bloc {
+  width: 500px;
+  height: 600px;
+  margin-top: 250px;
+  border-radius: 16px;
+  margin-left: 500px;
+  background: linear-gradient(230.46deg, #F9F9F9FF -2.98%, #CCB380FF 68.14%, #BEA46EFF 104.54%);
+  box-shadow: -webkit-box-shadow: inset 0px 0px 15px -1px #000000; 
+box-shadow: inset 0px 0px 15px -1px #000000;
+}
+
+.form {
+  text-align: center;
+}
+.form_element {
+  margin-top:30px;
+}
+
+.form_element_name {
+ font-family: 'Raleway';
+ font-weight: normal;
+ margin-right:2px;
+  margin-top: 25px;
+}
+
+.form_element_tel {
+  font-family: 'Raleway';
+  font-weight: normal;
+  margin-right:42px;
+  margin-top: 25px;
+}
+
+.form_element_mail {
+  font-family: 'Raleway';
+  font-weight: normal;
+  margin-right:70px;
+  margin-top: 25px;
+}
+
+.form_element_msg {
+ font-family: 'Raleway';
+ font-weight: normal;
+ margin-top: 30px;
+ text-align-last: justify;
+ margin-left: 50px;
+}
+
+.form_element button {
+      height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin-left: 220px;
+    margin-top: 20px;
+    text-align-last: center;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+.footer_section { 
+    background-color: #E9E0CEFF;
+    padding:2px;
+}
+
+ 
+
+.social_media {
+  display:flex;
+  justify-content: center;
+}
+
+.copyright p {
+  display:flex;
+  justify-content: center;
+  font-family: 'Raleway';
+  font-weight: normal;
+
+}
+
+.mentions  {
+  display:flex;
+  justify-content: center;
+  
+  }
+
+  .mentions a {
+  font-family: 'Raleway';
+  font-weight: bold;
+  color:#000000;
+  text-decoration: none;
+}
+  
+
+  /* @media only screen and (max-width: 1000px) {
+
+  .menu {
+display: flex;
+flex-direction:column;
+  }
+
+} */
+
+@media all and (max-width:1000px) {
+
+.header {
+  background:transparent;
+}
+
+.toggle {
+  display:block;
+  font-size: 32px;
+  cursor:pointer;
+  position:relative;
+  z-index:20;
+}
+
+
+      .logo {
+        position: relative;
+        z-index: 20;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+
+    .fermer {
+        display: none;
+    }
+
+    .open .ouvrir {
+        display: none;
+    }
+
+    .open .fermer {
+        display: block;
+    }
+
+
+.menu {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100vh;
+background:black;
+flex-direction:column;
+padding:32px;
+z-index: 20;
+/* transform:translateX(-100%);
+transition: transform 1s; */
+}
+
+.menu li a {
+  font-size:32px;
+}
+
+/* 
+.open .menu {
+  transform:translateX(0);
+}
+ */
+
+
+
+
+
+
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Shrikhand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+
+
+<body>
+<script src="../js/resp.js"></script>
+
+<header>
+<nav>
+<div class="logo">
+<img src="./logo/logo.png" alt="logo">
+</div>
+
+<div class="toggle">
+<i class="fa-solid fa-bars ouvrir"></i>
+<i class="fa-solid fa-xmark fermer"></i>
+</div>
+
+<ul class="menu">
+<li><a href=#me>Accueil</a></li>
+<li><a href=#profil>Profil</a></li>
+<li><a href=#capacity>Compétences</a></li>
+<li><a href=#projects>Portfolio</a></li>
+<li><a href=#form>Contact</a></li>
+
+</ul>
+
+
+
+</nav>
+</header>
+
+
+
+
+	<main>
+		<!--PROFIL-->
+		<section>
+		
+		<div class="hello_background">
+			
+	<div id="me">	 
+<div class="hello">
+		<h1>Jackye Veaud<br>
+		Intégratrice - Développeuse web junior</h1>
+	</div>
+	
+          </div>  
+			</div>
+			<div id="profil">
+<div class ="presentation">
+	<div class="presentation_face">
+		<img src="file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/Jackye.webp">
+		
+		<div class="presentation_text">
+			<h2>Je m'appelle Jackye Veaud, je suis en reconversion en développement web.<br>
+			En 2021, j'ai intégré Openclassrooms afin d'obtenir un Bac+2 Développeuse Web.<br>
+			J'apprend à intégrer du contenu conformément à une maquette avec HTML et CSS,<br> implémenter une interface responsive, optimiser les performances SEO d’un site web,<br> 
+			l'utilisation de Javascript.
+			Je suis à la recherche d'une entreprise auprès duquel<br> je pourrais apprendre encore et toujours et ainsi monter en compétences.<br>Egalement, je me forme en autodidacte sur Wordpress et Elementor.</h2>
+
+		</div>
+
+</div>
+			
+</div>
+</div>
+</section>
+<div id="capacity">
+	
+		<div class="competences_img">
+		<img src="file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/competences.webp">
+
+<div class="competences_list">
+	<div class="competences">
+		<h2>Compétences</h2>
+		</div>
+		<div class="competences_category">
+		<h3>Front-end</h3>
+	</div>
+	<div class="competences_front">
+		<div class="program">
+		<h4>HTML</h4>
+	</div>
+	<div class="program">
+		<h4>CSS</h4>
+	</div>
+	<div class="program">
+		<h4>SASS</h4>
+	</div>
+	<div class="program">
+		<h4>JAVASCRIPT</h4>
+	</div>
+	</div>
+		<div class="competences_category">
+		<h3>CMS, Site builder</h3>
+	</div>
+	<div class="competences_cms">
+		<div class="cms">
+		<h4>WORDPRESS</h4>
+	</div>
+	<div class="cms">
+		<h4>ELEMENTOR</h4>
+	</div>
+	</div>
+    </div>
+    </div>
+</div>
+	<!--PORTFOLIO-->
+	<div id="projects">
+	<div class="portfolio">
+		<h2>Portfolio</h2>
+		<div class="project_list">
+<div class="project">
+			<a href="https://call-driver-vtc.fr"> <img src="file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/CDVTC.webp"></a>
+			
+
+			<a href="https://jackyev4.github.io/Ohmyfood/"> <img src="file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/Capture-d%E2%80%99%C3%A9cran-2023-03-10-174507.webp"></a>
+			</div>
+		</div>
+	</div>
+</div>
+			<!--CONTACT-->
+			<div id="form">
+        <form>
+        	<div class="contact_font">
+			<div class="contact_bloc">
+			<div class="contact">
+				<h2>Contact</h2>
+			</div>
+			<div class="form">
+				<div class="form_element">
+					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+</div>
+					<div class="form_element_name">
+						<div class="form-group">
+							<label>
+								Nom
+							</label>
+							<input id="name" class="form-control" required />
+						</div>
+					</div>
+					<div class="form_element_tel">
+					<p><label>Telephone <input type ="tel" name="tel" maxlength="10" Pattern="^9[0-9]{7}" />
+</label></P>
+				</div>
+					<div class="form_element_mail">
+						Adresse email
+						<input id="email" class="form-control" type="email" required />
+					</div>
+					<div class="form_element_msg">
+						Message<br>
+					</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+				</div>
+				</div>
+			
+			<div class ="form_element">
+				<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					Envoyer
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+			</form>
+	</main>
+	<footer>
+		<div class="footer_section">
+
+		
+		<div class="social_media">
+			<div class="social_media_img">
+			<p>
+				<a href="https://www.linkedin.com/in/jackye-veaud-404b12102">
+					<img src="file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/logo/linkedin_logo.webp">
+				</a>
+			</p>
+		</div>
+		<div class="social_media_img">
+			<p>
+				<a href="https://github.com/Jackyev4">
+					<img src="file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/logo/icons8-github-48.webp">
+				</a>
+			</p>
+		</div>
+</div>
+<div class="copyright">
+			<p> Copyright © 2023 Jackye Veaud </p>
+			</div>
+			<div class="mentions">
+      <a href="html/politique.html" class="footer_link">Politique de confidentialité</a>
+  </div>
+  <div class="mentions">
+      <a href="html/mentions.html" class="footer_link">Mentions légales</a>
+      </div>
+    </div>	
+</footer>
+</body>
