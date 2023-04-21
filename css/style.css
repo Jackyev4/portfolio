@@ -359,7 +359,7 @@ flex-direction:column;
 
     .fermer {
         display: none;
-    }
+    } 
 
     .open .ouvrir {
         display: none;
