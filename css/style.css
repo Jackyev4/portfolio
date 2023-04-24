@@ -4,12 +4,6 @@ body {
   width: 100%;
 }
 
-/* * {
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-} */
-
 
 .header {
   position:absolute;
@@ -122,7 +116,7 @@ color:#E0E3E2;
 }
 
 .competences_list {
-  margin-top: -1000px;
+ 
 }
 
 .competences {
@@ -142,20 +136,18 @@ color:#E0E3E2;
  font-family: 'Raleway';
  font-weight: normal;
  padding-top: 20px;
- display:flex;
- text-align: center;
- gap:120px;
- margin-left:320px;
+ display:grid;
+ grid-auto-flow: column;
+ justify-content:space-evenly;
 }
 
 .competences_cms {
   font-family: 'Raleway';
-  font-weight: normal;
-  padding-top: 20px;
-  display:flex;
-  text-align: center;
-  gap:100px;
-  margin-left:310px;
+ font-weight: normal;
+ padding-top: 20px;
+ display:grid;
+ grid-auto-flow: column;
+ justify-content:space-evenly;
 
 }
 
@@ -178,7 +170,7 @@ color:#E0E3E2;
   border-image: linear-gradient(45deg,#D5CC8EFF,#000) 10;
   border-radius: 20px;
   width: 125px;
-  margin-left: 170px;
+  
 
 }
 
@@ -188,6 +180,13 @@ color:#E0E3E2;
  text-decoration: none;
  text-align: center;
 
+}
+
+.project_list {
+
+ padding-top: 20px;
+ display:grid;
+ grid-auto-flow: column;
 }
 
 .portfolio h2 {
