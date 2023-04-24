@@ -1,7 +1,7 @@
 
 body {
   overflow-x: hidden;
-  width: 100%;
+  width: auto;
 }
 
 
@@ -54,7 +54,7 @@ color:#E0E3E2;
 }
 
 .menu li a {
-  font-size: 24px;
+  font-size: 30px;
   color: #E0E3E2;
    text-decoration: none;
 }
@@ -79,7 +79,7 @@ color:#E0E3E2;
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding:95px;
+  padding:115px;
   margin-top: -16px;
 
 }
