@@ -2,6 +2,7 @@
 body {
   overflow-x: hidden;
   width: auto;
+  box-sizing: border-box;
 }
 
 
@@ -410,12 +411,12 @@ display: flex;
     font-size: 32px;
     cursor:pointer;
     position:relative;
-    z-index:20;
+    z-index:21;
   }
 
 
   .logo {
-    
+
     position: relative;
     z-index: 20;
   }
