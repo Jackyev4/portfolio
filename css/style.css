@@ -415,7 +415,7 @@ display: flex;
 
 
   .logo {
-    float:left;
+    
     position: relative;
     z-index: 20;
   }
@@ -448,18 +448,18 @@ display: flex;
     padding:32px;
     z-index: 20;
     justify-content: space-around;
-transform:translateX(-100%);
-transition: transform 1s;
+/* transform:translateX(-100%);
+transition: transform 1s; */
 }
 
 .menu li a {
   font-size:32px;
 }
 
-
+/* 
 .open .menu {
   transform:translateX(0);
-}
+} */
 
 
 }
