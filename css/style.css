@@ -81,7 +81,7 @@ body {
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding:80px;
+  padding:40px;
   margin-top: -16px;
 
 }
@@ -232,7 +232,7 @@ justify-content:space-evenly;
   font-family: 'Raleway';
   font-weight: bold;
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -279,11 +279,10 @@ justify-content:space-evenly;
  font-family: 'Raleway';
  font-weight: normal;
  margin-top: 30px;
- text-align-last: justify;
- margin-left: 65px;
+ margin-right:12%;
 }
 
-.form_element button {
+.form_element input {
   height: 40px;
   width: 70px;
   border-radius: 10px;
@@ -494,11 +493,11 @@ transition: transform 1s; */
 @media screen and (max-width:700px) {
 
   .competences_img img {
-    height: 950px;
+    height:1200px;
   }
 
   .competences_list {
-    margin-top: -145%;
+    margin-top: -180%;
   }
 
 
@@ -553,11 +552,11 @@ font-size:15px;
 
 
    .competences_img img {
-    height: 1100px;
+    height: 1200px;
   }
 
 .competences_list {
-    margin-top: -300%;
+    margin-top: -310%;
 }
 
 .competences .portfolio h2 {

@@ -1,19 +1,4 @@
 
-<form>
-  <label for="name">Nom :</label>
-  <input type="text" id="name" name="name"><br><br>
-  
-  <label for="phone">Téléphone :</label>
-  <input type="text" id="phone" name="phone"><br><br>
-  
-  <label for="email">Email :</label>
-  <input type="email" id="email" name="email"><br><br>
-  
-  <label for="message">Message :</label>
-  <textarea id="message" name="message" rows="5"></textarea><br><br>
-  
-  <input type="button" value="Envoyer" onclick="sendForm()">
-</form>
 
 <script>
   function sendForm() {
@@ -26,6 +11,8 @@
     
     alert("Formulaire envoyé !");
   }
+  
+  
 </script>
 
 document.createElement('form');
@@ -42,7 +29,7 @@ form.appendChild(nameInput);
 const emailInput = document.createElement('input');
 emailInput.setAttribute('type', 'email');
 emailInput.setAttribute('name', 'email');
-emailInput.setAttribute('placeholder', 'E-mail');
+emailInput.setAttribute('placeholder', 'email');
 emailInput.addEventListener('input', validateEmail);
 form.appendChild(emailInput);
 
@@ -62,5 +49,5 @@ submitButton.addEventListener('click', submitForm);
 form.appendChild(submitButton);
 
 // Ajouter le formulaire à la page HTML
-const formContainer = document.querySelector('.contact-form');
+const formContainer = document.querySelector('form');
 formContainer.appendChild(form);
