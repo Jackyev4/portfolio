@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="./css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Shrikhand&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Jackye Veaud Intégratrice - Développeuse web junior</title>
 <script src="../js/resp.js"></script>
@@ -25,7 +26,7 @@
 </div>
 
 <div class="toggle">
-<i class="fa-solid fa-bars ouvrir"></i>
+ <i class="fa-solid fa-bars ouvrir"></i>
 </div>
 <div class="toggle">
 <i class="fa-solid fa-xmark fermer"></i>
@@ -152,8 +153,9 @@ Je suis à la recherche d'une entreprise auprès duquel<br> je pourrais apprendr
 			<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 			</div>
 			<div class="form_element_name">
+			<form name="contactForm" onsubmit="return validateForm()">
 			<label for="name">Nom :</label>
-			<input type="text" id="name" name="name">
+			<input type="text" id="name" name="name" required>
 			</div>
 			<div class="form_element_tel">
 			<label for="phone">Téléphone :</label>
@@ -161,16 +163,16 @@ Je suis à la recherche d'une entreprise auprès duquel<br> je pourrais apprendr
 			</div>
 			<div class="form_element_mail">
 			<label for="email">Email :</label>
-  <input type="email" id="email" name="email">
+  <input type="email" id="email" name="email" required>
 			</div>
 			<div class="form_element_msg">
 			<label for="message">Message :</label>
-  <textarea id="message" name="message" rows="5"width="31px" style="width:255px; height:117px"></textarea>
+  <textarea id="message" name="message" rows="5"width="31px" style="width:255px; height:117px" required></textarea>
 			</div>
 			</div>
 			
 			<div class ="form_element">
-		<input type="button" value="Envoyer" onclick="sendForm()">
+		<input type="submit" value="Envoyer" onclick="submitForm()">
 			</div>
 			</div>
 			</div>
