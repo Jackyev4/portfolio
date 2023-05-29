@@ -11,7 +11,7 @@ class Contact(db.Model):
     email = db.Column(db.String(50), nullable=False)
     message = db.Column(db.Text, nullable=False)
 
-    @app.route('/contact', methods=['GET', 'POST'])
+ @app.route('/contact', methods=['GET', 'POST'])
 def contact():
     if request.method == 'POST':
         name = request.form['name']
