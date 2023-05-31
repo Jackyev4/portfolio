@@ -305,8 +305,194 @@ justify-content:space-evenly;
 }
 
 
-@media screen and (min-width: 768px) {
-  .nav {
-    display:none;
+@media screen and (max-width:1286px) {
+
+
+  .presentation_face img{
+    height:230px;
   }
+
+
+  .presentation_text h2 {
+   font-size:20px;
+ }
+
+
 }
+
+@media screen and (max-width:1080px) {
+
+  .presentation {
+    height: 620px;
+
+  }
+
+  .presentation_face {
+    display:flex;
+    justify-content: center;
+    margin-top: 4%;
+  }
+
+
+  .presentation_text h2 {
+    margin-top:4%;
+    font-size: 18px;
+  }
+
+  .competences_img img {
+    height: 850px;
+  }
+
+  .competences_list {
+    margin-top: -80%;
+  }
+
+
+
+.project-list {
+    display:flex;
+    justify-content: center;
+    margin-right: 45%;
+}
+
+
+.portfolio img {
+display: flex;
+    justify-content: center;
+    margin-right: 46%;
+
+} 
+
+.form_bloc {
+  display:flex;
+}
+
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+
+  .header {
+    background:transparent;
+  }
+
+
+
+
+.menu li a {
+  font-size:32px;
+}
+
+ 
+
+
+
+}
+
+
+
+@media screen and (max-width:885px) {
+
+ .menu li a {
+  font-size:25px;
+}
+
+
+.presentation_face img {
+  height:200px;
+}
+
+.presentation_text h2 {
+ margin-top:4%;
+ font-size: 15px;
+ margin-left: 18%;
+}
+
+.competences_list {
+  margin-top: -100%;
+}
+
+
+}
+
+@media screen and (max-width:700px) {
+
+  .competences_img img {
+    height:1200px;
+  }
+
+  .competences_list {
+    margin-top: -180%;
+  }
+
+
+.competences_front {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.competences_cms {
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.portfolio {
+  margin-top: -10%;
+}
+
+
+.project {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ align-items: center;
+}
+
+
+.contact_bloc {
+  width: 400px;
+  
+
+}
+
+
+
+
+}
+
+
+@media screen and (max-width:500px) {
+
+
+
+   .competences_img img {
+    height: 1100px;
+  }
+
+.competences_list {
+    margin-top: -300%;
+}
+
+.competences .portfolio h2 {
+  font-size:14px;
+}
+
+
+
+.contact_bloc {
+  width: 290px;
+
+}
+
+
+
+
+
+
+  }
