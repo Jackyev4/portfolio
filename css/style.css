@@ -3,6 +3,7 @@ body {
   overflow-x: hidden;
   width: auto;
   box-sizing: border-box;
+  font-family: 'Raleway';
 }
 
 
@@ -211,7 +212,7 @@ justify-content:space-evenly;
   border-image: linear-gradient(45deg,#D5CC8EFF,#000) 10;
 }
 
-/* FORMULAIRE */
+/* CONTACT */
 
 .form_bloc {
   display: flex;
@@ -239,13 +240,33 @@ justify-content:space-evenly;
 
 .contact_bloc {
   width: 500px;
-  height: 600px;
+  height: 400px;
   margin-top: 250px;
   border-radius: 16px;
   background: linear-gradient(230.46deg, #F9F9F9FF -2.98%, #CCB380FF 68.14%, #BEA46EFF 104.54%);
   box-shadow: inset 0px 0px 15px -1px #000000;
 }
 
+
+.contact_mail {
+  text-align: center;
+  text-decoration: none;
+  
+ 
+}
+
+.contact_tel {
+  text-align: center;
+}
+
+.contact_me p a {
+  color: black;
+  text-decoration: none; 
+}
+
+.contact_me {
+  font-size:20px;
+}
 
 
 /*FOOTER*/
