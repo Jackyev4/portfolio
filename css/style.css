@@ -78,7 +78,7 @@ body {
 
 .hello_background {
   position: relative;
-  background-image: url("file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/pen.jpg");
+  background-image: url("file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/pen.jpeg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -220,7 +220,7 @@ justify-content:space-evenly;
 }
 
 .contact_font {
-  background-image: url("file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/fond.webp");
+  background-image: url("C:/Users/jacky/Documents/Divers projets/portfolio/img/fond.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
@@ -244,7 +244,7 @@ justify-content:space-evenly;
   margin-top: 250px;
   border-radius: 16px;
   background: linear-gradient(230.46deg, #F9F9F9FF -2.98%, #CCB380FF 68.14%, #BEA46EFF 104.54%);
-  box-shadow: inset 0px 0px 15px -1px #000000;
+  box-shadow: inset 3px 3px 15px 3px #000000;
 }
 
 
