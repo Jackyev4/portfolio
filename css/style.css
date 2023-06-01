@@ -78,7 +78,7 @@ body {
 
 .hello_background {
   position: relative;
-  background-image: url("file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/pen.webp");
+  background-image: url("file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/pen.jpg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -108,7 +108,7 @@ body {
   font-family: 'Raleway';
   font-weight: lighter;
   margin-top: -230px;
-  margin-left: 25%;
+  margin-left: 22%;
 
 }
 
