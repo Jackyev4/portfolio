@@ -36,10 +36,6 @@ body {
 }
 
 
-.toggle {
-  display:none;
-  color:#E0E3E2;
-}
 
 .menu {
   align-items: center;
@@ -70,19 +66,19 @@ body {
   font-weight: bold;
   display: flex;
   justify-content: center;
-  margin-bottom: 200px;
-  font-size: 45px;
+  margin-bottom: 266px;
+  font-size: 40px;
   color: #E0E3E2;
+  margin-top: -25%;
+  margin-left: 4%;
 }
 
 
-.hello_background {
-  position: relative;
-  background-image: url("file:///C:/Users/jacky/Documents/Divers%20projets/portfolio/img/pen.jpeg");
+.hello_background img {
+  height: 500px;
+  width: 100%;
   object-fit: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  padding:40px;
   margin-top: -16px;
 
 }
