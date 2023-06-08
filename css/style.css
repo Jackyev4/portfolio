@@ -215,8 +215,7 @@ justify-content:space-evenly;
   justify-content: center;
 }
 
-.contact_font {
-  background-image: url("C:/Users/jacky/Documents/Divers projets/portfolio/img/fond.jpeg");
+.contact_font img {
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
@@ -237,7 +236,6 @@ justify-content:space-evenly;
 .contact_bloc {
   width: 500px;
   height: 400px;
-  margin-top: 250px;
   border-radius: 16px;
   background: linear-gradient(230.46deg, #F9F9F9FF -2.98%, #CCB380FF 68.14%, #BEA46EFF 104.54%);
   box-shadow: inset 3px 3px 15px 3px #000000;
