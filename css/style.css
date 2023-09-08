@@ -125,6 +125,13 @@ box-sizing: border-box;
 
 }
 
+.competences h2 {
+  display:flex;
+  justify-content: center;
+  margin:0;
+  padding: 0;
+}
+
 .competences_list {
   position: absolute;
     top: 70vw;
@@ -250,7 +257,8 @@ justify-content:space-evenly;
 
 
 .form_bloc {
-  display: flex;
+  display:flex;
+  flex-direction: row;
   justify-content: center;
   padding:0;
   margin: 0;
@@ -272,40 +280,26 @@ justify-content:space-evenly;
 
 .contact_bloc {
   display: flex;
-
-  width: 500px;
-  height: 400px;
+  width: 300px;
+  height: 250px;
   border-radius: 16px;
   background: #D5D0CD;
   background: linear-gradient(to right, #D5D0CD 0%, #FFFFFF 100%); box-shadow: inset 3px 3px 15px 3px #000000;
   position: absolute;
   top:127vw;
+  padding-top:100px;
+  padding-left: 122px;
+  font-family: 'Raleway';
  
 }
 
-.contact h2 {
-  position: absolute;
-  top:10vw;
-  right: 11vw;
-}
-
-.contact_mail {
-  text-align: center;
+.contact_bloc h2 p {
   text-decoration: none;
-  position: absolute;
-    bottom: 12vw;
-    right: 8vw;
-  
- 
 }
 
-.contact_tel {
-  text-align: center;
-  justify-content: center;
-  position: absolute;
-    bottom: 10vw;
-    right:10vw;
-}
+
+
+
 
 .contact_me p a {
   color: black;
@@ -315,6 +309,7 @@ justify-content:space-evenly;
 .contact_me {
   font-size:20px;
   font-family: 'Raleway';
+  text-decoration: none;
 }
 
 
@@ -360,8 +355,62 @@ padding:2px;
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
 
+  /* Présentation */
+  
+.presentation_text h2 {
+  font-size: 16px; 
+  margin-top: 20px; 
+}
+
+
+.presentation_face {
+  text-align: center; /* Centrez l'image de profil */
+  margin-top: 0; /* Supprimez la marge supérieure pour un meilleur alignement */
+}
+
+.presentation_face img {
+  height: 175px;
+  display: block;
+}
+
+/* Compétences */
+
+
+
+/* Projets */
+
+
+.project_list {
+  position: static; /* ou position: relative; selon votre mise en page souhaitée */
+}
+
+.portfolio h2 {
+  padding-top: 0; /* Pour supprimer l'espace supplémentaire au-dessus du titre */
+}
+
+/* Formulaire de contact */
+
+
+.contact_bloc {
+  width: 300px;
+  height: 250px;
+  border-radius: 16px;
+  background: #D5D0CD;
+  background: linear-gradient(to right, #D5D0CD 0%, #FFFFFF 100%);  box-shadow: inset 3px 3px 15px 3px #000000;
+  position: absolute;
+    top: 160vw;
+}
+
+.contact h2 {
+  padding-top: 18px;
+  padding-left: 10px;
+}
+
+}
+
+@media screen and (max-width:900px) {
   .navbar {
     padding:0;
   }
@@ -413,49 +462,5 @@ padding:2px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.contact_bloc {
-  width: 400px;
-  height: 300px;
-  border-radius: 16px;
-  background: #D5D0CD;
-  background: linear-gradient(to right, #D5D0CD 0%, #FFFFFF 100%);  box-shadow: inset 3px 3px 15px 3px #000000;
-  position: absolute;
-  top:209vw;
-}
-
-.contact h2 {
-  padding-top:100px;
-}
 
 }
