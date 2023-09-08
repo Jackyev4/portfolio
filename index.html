@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Shrikhand&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<script src="script.js" defer></script>
 <title>Deal&Dev<br>Jackye Veaud Intégratrice - Développeuse Wordpress</title>
 
 
@@ -36,10 +36,14 @@
 
 </ul>
 </div>
+<div class="img-hamburger">
 
-<header></header>
+<img src="img/menu.png" alt="menu hamburger" class=".menu-hamburger">
+</div>
 </nav>
+<header>
 
+</header>
 
 
 
@@ -141,7 +145,7 @@ Je suis à la recherche <br>d'une entreprise auprès duquel je pourrais apprendr
 			<div id="form">
 				
 			<div class="contact_font">
-				<img src="./img/coffee-2847957_1280.jpg"style="width:100% ;">
+				<img src="./img/coffee-2847957_1280.jpg">
 				
 			<div class="form_bloc">
 			<div class="contact_bloc">
@@ -157,10 +161,6 @@ Je suis à la recherche <br>d'une entreprise auprès duquel je pourrais apprendr
 			</div>
 		</div>
 	</div>
-		
-
-		
-			
 			
 			</div>
 			</div>
@@ -203,3 +203,13 @@ Je suis à la recherche <br>d'une entreprise auprès duquel je pourrais apprendr
 					</footer>
 					
 					</body>
+					<script>
+						const menuHamburger = document.querySelector(".img-hamburger")
+						const navLinks = document.querySelector(".nav-links")
+				 
+						menuHamburger.addEventListener('click',()=>{
+						navLinks.classList.toggle('menu-mobile')
+						})
+				</script>
+
+</html>
