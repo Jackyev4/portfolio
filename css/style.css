@@ -22,12 +22,11 @@
 .navbar {
 background-color:#4c5155;
 box-shadow: inset 0px 0px 49px -13px #000000;
-position: absolute;
-padding: 30px;
+position: relative;
 display:flex;
 justify-content:center;
 width: 100%;
-height: 13%;
+height: 80px;
 box-sizing: border-box;
  }
 
@@ -48,6 +47,8 @@ box-sizing: border-box;
 
 .navbar .nav-links ul {
   display: flex;
+  position: relative;
+    top: 20px;
 }
 
 .navbar .nav-links ul li {
@@ -84,7 +85,7 @@ box-sizing: border-box;
 
 .hello_background img {
   width: 100%;
-  height: 550px;
+  height: 450px;
   object-fit: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -95,11 +96,10 @@ box-sizing: border-box;
 
 .presentation {
   width: auto;
-  padding: 2px;
+  height: 500px;
   background-color: #d6cfcb;
   box-shadow:inset 1px 0px 14px 0px #4d4847;
-  padding-bottom: 1px;
-  margin-top: -3px;
+ 
 }
 
 .presentation_face {
@@ -119,8 +119,8 @@ box-sizing: border-box;
   font-size:25px;
   font-family: 'Raleway';
   font-weight: lighter;
-  position: absolute;
-  top: 40rem;
+  position: relative;
+  bottom:300px;
   margin-left: 28%;
 
 }
@@ -133,9 +133,8 @@ box-sizing: border-box;
 }
 
 .competences_list {
-  position: absolute;
-    top: 70vw;
-    left: 70vh;
+  position: relative;
+  bottom: 700px;
 }
 
 
@@ -222,9 +221,8 @@ justify-content:space-evenly;
 .project {
  display:flex;
  justify-content: space-around;
- position: absolute;
-    top: 100vw;
-    left: 62vh;
+ position: relative;
+   bottom: 500px;
     gap: 20%;
 }
 
@@ -236,9 +234,9 @@ justify-content:space-evenly;
   font-family: 'Raleway';
   font-weight: bold;
   text-align: center;
-  position: absolute;
-    top: 95vw;
-    left: 102vh;
+  position: relative;
+  bottom: 550px;
+    
 }
 
 .project_list img {
@@ -257,15 +255,16 @@ justify-content:space-evenly;
 
 
 .form_bloc {
-  display:flex;
-  flex-direction: row;
+  display: flex;
+  position: relative;
+  bottom: 950px;
   justify-content: center;
-  padding:0;
-  margin: 0;
 
 }
 
 .contact_font img {
+  position: relative;
+  bottom: 350px;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -285,8 +284,7 @@ justify-content:space-evenly;
   border-radius: 16px;
   background: #D5D0CD;
   background: linear-gradient(to right, #D5D0CD 0%, #FFFFFF 100%); box-shadow: inset 3px 3px 15px 3px #000000;
-  position: absolute;
-  top:127vw;
+  position: relative;
   padding-top:100px;
   padding-left: 122px;
   font-family: 'Raleway';
@@ -355,25 +353,25 @@ padding:2px;
 }
 
 
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) { */
 
   /* Présentation */
   
-.presentation_text h2 {
+/* .presentation_text h2 {
   font-size: 16px; 
   margin-top: 20px; 
-}
+} */
 
 
-.presentation_face {
+/* .presentation_face {
   text-align: center; /* Centrez l'image de profil */
-  margin-top: 0; /* Supprimez la marge supérieure pour un meilleur alignement */
-}
-
+ /* margin-top: 0;  Supprimez la marge supérieure pour un meilleur alignement */
+ */
+/* 
 .presentation_face img {
   height: 175px;
   display: block;
-}
+} */
 
 /* Compétences */
 
@@ -382,18 +380,18 @@ padding:2px;
 /* Projets */
 
 
-.project_list {
+/* .project_list {
   position: static; /* ou position: relative; selon votre mise en page souhaitée */
-}
+ 
 
-.portfolio h2 {
+/* .portfolio h2 {
   padding-top: 0; /* Pour supprimer l'espace supplémentaire au-dessus du titre */
-}
+
 
 /* Formulaire de contact */
 
 
-.contact_bloc {
+/* .contact_bloc {
   width: 300px;
   height: 250px;
   border-radius: 16px;
@@ -406,11 +404,11 @@ padding:2px;
 .contact h2 {
   padding-top: 18px;
   padding-left: 10px;
-}
+} */
 
-}
 
-@media screen and (max-width:900px) {
+
+/* @media screen and (max-width:900px) {
   .navbar {
     padding:0;
   }
@@ -423,9 +421,9 @@ padding:2px;
 
 .navbar .img-hamburger {
   display: block;
-}
+} */
 
-  .nav-links {
+  /* .nav-links {
    position:absolute;
    top:0;
    left:0;
@@ -459,8 +457,3 @@ padding:2px;
 
 
 
-
-
-
-
-}
