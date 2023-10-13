@@ -4,19 +4,15 @@
   text-decoration: none;
   list-style:none;
   
+  
 }
 
-.body {
+.html.body {
+  width:100%;
   font-family:'Raleway';
+  flex-direction: column;
 }
 
-
-.header {
-  height:100vh;
-  width:100vw;
-  background-size: cover;
-  padding: 0 32px;
-}
 
 
 .navbar {
@@ -48,11 +44,15 @@ box-sizing: border-box;
 .navbar .nav-links ul {
   display: flex;
   position: relative;
-    top: 20px;
+    top: 24px;
 }
 
 .navbar .nav-links ul li {
   margin: 0 50px;
+}
+
+.navbar .nav-links ul li.active a {
+  margin: 0 25px;
 }
 
 .img-hamburger {
@@ -133,19 +133,12 @@ box-sizing: border-box;
 }
 
 .competences_list {
-  position: relative;
-  bottom: 700px;
+  background:url(../img/competences.jpeg) no-repeat center center ;
+  background-size: cover;
+  padding-top: 40%;
+  
+  
 }
-
-
-.competences_img img {
-  display: flex;
-  justify-content: center;
-  object-fit: cover;
-  width: 100%;
-  height: 110vh;
-}
-
 
 
 .competences {
@@ -153,10 +146,14 @@ box-sizing: border-box;
   font-family: 'Raleway';
   font-weight:bold;
   padding-bottom: 20px;
+  position: relative;
+  bottom: 550px;
 
 }
 
 .competences_category {
+  position: relative;
+  bottom: 500px;
   padding-bottom: 20px;
  font-family: 'Raleway';
  font-weight:bold;
@@ -170,16 +167,20 @@ box-sizing: border-box;
 display:grid;
 grid-auto-flow: column;
 justify-content:space-evenly;
-gap:20%;
+gap:10%;
 padding-bottom: 20px;
+position: relative;
+bottom: 500px;
 }
 
 .competences_cms {
-  font-family: 'Raleway';
-  font-weight: normal;
+font-family: 'Raleway';
+font-weight: normal;
 display:grid;
 grid-auto-flow: column;
 justify-content:space-evenly;
+position: relative;
+bottom: 450px;
 
 }
 
@@ -218,16 +219,6 @@ justify-content:space-evenly;
 
 }
 
-.project {
- display:flex;
- justify-content: space-around;
- position: relative;
-   bottom: 500px;
-    gap: 20%;
-}
-
-
-
 .portfolio h2 {
   display:flex;
   justify-content: center;
@@ -235,9 +226,21 @@ justify-content:space-evenly;
   font-weight: bold;
   text-align: center;
   position: relative;
-  bottom: 550px;
+  bottom: 350px;
     
 }
+
+.project {
+ display:flex;
+ justify-content: space-around;
+  position: relative;
+  bottom: 250px;
+ gap: 20%;
+}
+
+
+
+
 
 .project_list img {
   display: grid;
@@ -255,26 +258,15 @@ justify-content:space-evenly;
 
 
 .form_bloc {
-  display: flex;
-  position: relative;
-  bottom: 950px;
-  justify-content: center;
-
-}
-
-.contact_font img {
-  position: relative;
-  bottom: 350px;
+  background:url('../img/coffee-2847957_1280.jpg') no-repeat center center;
   background-size: cover;
-  background-repeat: no-repeat;
-  object-fit: cover;
-  width: 100%;
-  height: 100vh;
-  margin-top: -3px;
+  padding:10% 0;
   display: flex;
   justify-content: center;
-}
+  margin-top: -172px;
+ 
 
+}
 
 
 .contact_bloc {
@@ -346,114 +338,59 @@ padding:2px;
 }
 
 .mentions a {
-  font-family: 'Raleway';
+  font-family:'Raleway';
   font-weight: bold;
   color:#000000;
   text-decoration: none;
 }
 
 
-/* @media screen and (max-width: 1400px) { */
-
-  /* Présentation */
-  
-/* .presentation_text h2 {
-  font-size: 16px; 
-  margin-top: 20px; 
-} */
-
-
-/* .presentation_face {
-  text-align: center; /* Centrez l'image de profil */
- /* margin-top: 0;  Supprimez la marge supérieure pour un meilleur alignement */
- */
-/* 
-.presentation_face img {
-  height: 175px;
-  display: block;
-} */
-
-/* Compétences */
-
-
-
-/* Projets */
-
-
-/* .project_list {
-  position: static; /* ou position: relative; selon votre mise en page souhaitée */
- 
-
-/* .portfolio h2 {
-  padding-top: 0; /* Pour supprimer l'espace supplémentaire au-dessus du titre */
-
-
-/* Formulaire de contact */
-
-
-/* .contact_bloc {
-  width: 300px;
-  height: 250px;
-  border-radius: 16px;
-  background: #D5D0CD;
-  background: linear-gradient(to right, #D5D0CD 0%, #FFFFFF 100%);  box-shadow: inset 3px 3px 15px 3px #000000;
-  position: absolute;
-    top: 160vw;
+/* @media screen and (max-width: 900px) {
+.navbar {
+  padding:0;
+  margin: 0;
 }
 
-.contact h2 {
-  padding-top: 18px;
-  padding-left: 10px;
-} */
-
-
-
-/* @media screen and (max-width:900px) {
-  .navbar {
-    padding:0;
-  }
-
-  .navbar img {
-    position:absolute;
-    top:10px;
-    left: 8px;
-  }
-
-.navbar .img-hamburger {
+.navbar.menu-hamburger {
   display: block;
+}
+
+.nav-links {
+  top:0;
+  left:0;
+  position:absolute;
+}
 } */
 
-  /* .nav-links {
-   position:absolute;
-   top:0;
-   left:0;
-   background-color:#8a2be238;
-   backdrop-filter: blur(8px);
-   width: 100%;
-   height:85vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-left:-100%;
-   transition: all 0.5s ease;
-   z-index: 2;
+@media screen and (max-width: 900px) {
+  .navbar .nav-links ul {
+      display: block;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      background-color: #4c5155;
+      width: 100%;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.2s ease-out;
   }
 
-  .nav-links ul {
-    display:flex;
+  .navbar .nav-links.menu-mobile ul {
+      max-height: 300px;
+  }
+
+  .navbar .nav-links ul li {
+      margin: 0;
+      text-align: center;
+  }
+
+  .navbar .img-hamburger {
+      display: block;
+  }
+
+
+  .competences_front .competences_cms .competences_category .project_list {
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    
   }
-
-  .nav-links.mobile-menu {
-    margin-left: 0;
-  }
-
-.navbar .nav-links ul li {
-  margin: 25px 0;
-  font-size:1.2em;
 }
-
-
-
